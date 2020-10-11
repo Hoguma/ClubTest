@@ -1,0 +1,380 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns:atg="http://atg.xbox.com" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{8e114980-c1a3-4ada-ad7c-83caadf5daeb}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe</Extensions>
+    </Filter>
+    <Filter Include="DXUT">
+      <UniqueIdentifier>{a43c5c25-0e86-4a20-b64a-883785ff74fd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shaders">
+      <UniqueIdentifier>{2c3d4c8c-5d1a-459a-a05a-a4e4b608a44e}</UniqueIdentifier>
+      <Extensions>fx;fxh;hlsl</Extensions>
+    </Filter>
+    <Filter Include="mainGame">
+      <UniqueIdentifier>{4f88e0ae-7caf-4f92-a317-34c336a1b7bc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="managers">
+      <UniqueIdentifier>{21054c05-5c97-4b39-b8a3-58c68eb78541}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scenes">
+      <UniqueIdentifier>{28116b3b-3caa-42f8-9e7c-0c4192827f2e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="objects">
+      <UniqueIdentifier>{04cff315-ab58-403f-8e04-0ff7c11ae4dd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="objects\bullet">
+      <UniqueIdentifier>{6be2a2dd-0bc5-425f-8d7e-b45d3f8b3701}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="objects\bullet\cMobBullet">
+      <UniqueIdentifier>{34de824e-058d-4940-86a1-ebc71f4c1d93}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="objects\bullet\cPlayerBullet">
+      <UniqueIdentifier>{f00a165d-f420-4bdd-9473-cf04bba80f74}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scenes\InGame">
+      <UniqueIdentifier>{ca542ee2-1072-4942-857f-7d39ca7fe293}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scenes\Title">
+      <UniqueIdentifier>{cd485980-4fba-43fc-9652-e5199e971e78}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="managers\ImageManager">
+      <UniqueIdentifier>{8c8927f0-177a-42fc-b808-31a615b9be91}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="managers\SceneManager">
+      <UniqueIdentifier>{0df0dd77-160b-4322-9ff0-0d14a6ae5835}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Timer">
+      <UniqueIdentifier>{374837a5-b67c-4476-80ac-76c364acff9e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="managers\InputManager">
+      <UniqueIdentifier>{32edab5a-a18c-4f21-978a-85160ada71a4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="objects\Button">
+      <UniqueIdentifier>{e573cb66-6b3d-4002-a96d-5c8554b5476a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="objects\ScroolMap">
+      <UniqueIdentifier>{6739e7b8-0875-43a8-9f85-1ef50670efbb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="objects\Player">
+      <UniqueIdentifier>{e161414d-f346-45dd-af34-48beffed561c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="objects\Mob">
+      <UniqueIdentifier>{b511c17b-337a-4a96-8090-02fe0e83faec}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scenes\Main">
+      <UniqueIdentifier>{e2f76a01-ee80-48f8-98aa-1c1e3cfab612}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scenes\Scene">
+      <UniqueIdentifier>{576389b8-fc60-4aa5-a9b7-eb83c4b2bf93}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="objects\Mob\Admin">
+      <UniqueIdentifier>{a05f2530-2eef-4ed9-958c-db8b1c4acd02}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="objects\Mob\Normal">
+      <UniqueIdentifier>{311ca25d-ec45-4e5d-8c66-29b0a7553566}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="objects\Mob\Parents">
+      <UniqueIdentifier>{58e95676-6272-458b-83a3-39d892c060bf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="objects\Player\Dororo">
+      <UniqueIdentifier>{412b21bd-d86a-4f18-b171-ed9468512e0c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="objects\Mob\Bullet">
+      <UniqueIdentifier>{68a719c2-1354-4db5-9a0d-d418bdd827cc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="objects\Mob\Invisible">
+      <UniqueIdentifier>{43e28a25-5eb5-4033-8365-a3bf99bffb50}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="objects\Player\Keroro">
+      <UniqueIdentifier>{f03a629d-1d09-407b-93db-30020e28f77b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="objects\Player\Giroro">
+      <UniqueIdentifier>{30c9468a-465a-4d9d-9614-a1adb3f825e0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="objects\Player\Tamama">
+      <UniqueIdentifier>{d1d37d5b-cd45-4f57-9572-11e07e5a1d38}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="objects\Player\Kururu">
+      <UniqueIdentifier>{6f68795b-abef-46fc-bf2d-686771589915}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="objects\bullet\cPlayerBullet\Parents">
+      <UniqueIdentifier>{b1cb96e4-40cd-4649-9343-c9f39ca5f86a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="objects\bullet\cPlayerBullet\Dororo">
+      <UniqueIdentifier>{ce0c6411-7bd5-4fb3-bf6b-33e16784f928}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="objects\bullet\cMobBullet\Parents">
+      <UniqueIdentifier>{50d0ac1b-c085-4580-9a52-92d998802d0e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="objects\bullet\cMobBullet\Normal">
+      <UniqueIdentifier>{46016001-5fbd-4ce7-8a5e-0cd64c049a26}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="objects\bullet\cPlayerBullet\Giroro">
+      <UniqueIdentifier>{0ce5cf81-67ef-4f1b-90a0-82f0a62879bd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="objects\Mob\Kiruru">
+      <UniqueIdentifier>{5fdb9fc4-aaca-4f3e-9c94-f7e71df26e01}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="objects\bullet\cMobBullet\X">
+      <UniqueIdentifier>{c6ad416e-ea49-45f1-9454-278bba25d1d0}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="DXUT\Optional\directx.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <ClInclude Include="DXUT\Core\DXUT.h">
+      <Filter>DXUT</Filter>
+    </ClInclude>
+    <ClInclude Include="DXUT\Core\DXUTenum.h">
+      <Filter>DXUT</Filter>
+    </ClInclude>
+    <ClInclude Include="DXUT\Core\DXUTmisc.h">
+      <Filter>DXUT</Filter>
+    </ClInclude>
+    <ClCompile Include="DXUT\Core\DXUT.cpp">
+      <Filter>DXUT</Filter>
+    </ClCompile>
+    <ClCompile Include="DXUT\Core\DXUTenum.cpp">
+      <Filter>DXUT</Filter>
+    </ClCompile>
+    <ClCompile Include="DXUT\Core\DXUTmisc.cpp">
+      <Filter>DXUT</Filter>
+    </ClCompile>
+    <ClInclude Include="DXUT\Optional\DXUTcamera.h">
+      <Filter>DXUT</Filter>
+    </ClInclude>
+    <ClInclude Include="DXUT\Optional\DXUTgui.h">
+      <Filter>DXUT</Filter>
+    </ClInclude>
+    <ClInclude Include="DXUT\Optional\DXUTres.h">
+      <Filter>DXUT</Filter>
+    </ClInclude>
+    <ClInclude Include="DXUT\Optional\DXUTsettingsdlg.h">
+      <Filter>DXUT</Filter>
+    </ClInclude>
+    <ClInclude Include="DXUT\Optional\SDKmesh.h">
+      <Filter>DXUT</Filter>
+    </ClInclude>
+    <ClInclude Include="DXUT\Optional\SDKmisc.h">
+      <Filter>DXUT</Filter>
+    </ClInclude>
+    <ClCompile Include="DXUT\Optional\DXUTcamera.cpp">
+      <Filter>DXUT</Filter>
+    </ClCompile>
+    <ClCompile Include="DXUT\Optional\DXUTgui.cpp">
+      <Filter>DXUT</Filter>
+    </ClCompile>
+    <ClCompile Include="DXUT\Optional\DXUTres.cpp">
+      <Filter>DXUT</Filter>
+    </ClCompile>
+    <ClCompile Include="DXUT\Optional\DXUTsettingsdlg.cpp">
+      <Filter>DXUT</Filter>
+    </ClCompile>
+    <ClCompile Include="DXUT\Optional\SDKmesh.cpp">
+      <Filter>DXUT</Filter>
+    </ClCompile>
+    <ClCompile Include="DXUT\Optional\SDKmisc.cpp">
+      <Filter>DXUT</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="EmptyProject.cpp" />
+    <ClCompile Include="mainGame.cpp">
+      <Filter>mainGame</Filter>
+    </ClCompile>
+    <ClCompile Include="cScene.cpp">
+      <Filter>Scenes\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="cScroolMap.cpp">
+      <Filter>objects\ScroolMap</Filter>
+    </ClCompile>
+    <ClCompile Include="cBulletAdmin.cpp">
+      <Filter>objects\bullet</Filter>
+    </ClCompile>
+    <ClCompile Include="cTitleScene.cpp">
+      <Filter>Scenes\Title</Filter>
+    </ClCompile>
+    <ClCompile Include="cIngameScene.cpp">
+      <Filter>Scenes\InGame</Filter>
+    </ClCompile>
+    <ClCompile Include="cImageManager.cpp">
+      <Filter>managers\ImageManager</Filter>
+    </ClCompile>
+    <ClCompile Include="cSceneManager.cpp">
+      <Filter>managers\SceneManager</Filter>
+    </ClCompile>
+    <ClCompile Include="cTimer.cpp">
+      <Filter>Timer</Filter>
+    </ClCompile>
+    <ClCompile Include="cInputManager.cpp">
+      <Filter>managers\InputManager</Filter>
+    </ClCompile>
+    <ClCompile Include="cButton.cpp">
+      <Filter>objects\Button</Filter>
+    </ClCompile>
+    <ClCompile Include="cMainScene.cpp">
+      <Filter>Scenes\Main</Filter>
+    </ClCompile>
+    <ClCompile Include="cNormalMob.cpp">
+      <Filter>objects\Mob\Normal</Filter>
+    </ClCompile>
+    <ClCompile Include="cMobAdmin.cpp">
+      <Filter>objects\Mob\Admin</Filter>
+    </ClCompile>
+    <ClCompile Include="cMob.cpp">
+      <Filter>objects\Mob\Parents</Filter>
+    </ClCompile>
+    <ClCompile Include="cPlayer.cpp">
+      <Filter>objects\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="cDororo.cpp">
+      <Filter>objects\Player\Dororo</Filter>
+    </ClCompile>
+    <ClCompile Include="cInvisibleMob.cpp">
+      <Filter>objects\Mob\Invisible</Filter>
+    </ClCompile>
+    <ClCompile Include="cBulletMob.cpp">
+      <Filter>objects\Mob\Bullet</Filter>
+    </ClCompile>
+    <ClCompile Include="cBullet.cpp">
+      <Filter>objects\bullet\cPlayerBullet\Parents</Filter>
+    </ClCompile>
+    <ClCompile Include="cMobBullet.cpp">
+      <Filter>objects\bullet\cMobBullet\Parents</Filter>
+    </ClCompile>
+    <ClCompile Include="cNormalBullet.cpp">
+      <Filter>objects\bullet\cMobBullet\Normal</Filter>
+    </ClCompile>
+    <ClCompile Include="cGiroro.cpp">
+      <Filter>objects\Player\Giroro</Filter>
+    </ClCompile>
+    <ClCompile Include="cKeroro.cpp">
+      <Filter>objects\Player\Keroro</Filter>
+    </ClCompile>
+    <ClCompile Include="cDororoBullet.cpp">
+      <Filter>objects\bullet\cPlayerBullet\Dororo</Filter>
+    </ClCompile>
+    <ClCompile Include="cKiruru.cpp">
+      <Filter>objects\Mob\Kiruru</Filter>
+    </ClCompile>
+    <ClCompile Include="cXBullet.cpp">
+      <Filter>objects\bullet\cMobBullet\X</Filter>
+    </ClCompile>
+    <ClCompile Include="cXFBullet.cpp">
+      <Filter>objects\bullet\cMobBullet\X</Filter>
+    </ClCompile>
+    <ClCompile Include="cKiruruBullet.cpp">
+      <Filter>objects\bullet\cMobBullet\X</Filter>
+    </ClCompile>
+    <ClCompile Include="cSplitBullet.cpp">
+      <Filter>objects\bullet\cMobBullet\X</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CLInclude Include="resource.h">
+      <Filter>Resource Files</Filter>
+    </CLInclude>
+    <ResourceCompile Include="EmptyProject.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+    <ClInclude Include="mainGame.h">
+      <Filter>mainGame</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h" />
+    <ClInclude Include="singleton.h">
+      <Filter>managers</Filter>
+    </ClInclude>
+    <ClInclude Include="cScene.h">
+      <Filter>Scenes\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="cScroolMap.h">
+      <Filter>objects\ScroolMap</Filter>
+    </ClInclude>
+    <ClInclude Include="cBulletAdmin.h">
+      <Filter>objects\bullet</Filter>
+    </ClInclude>
+    <ClInclude Include="cTitleScene.h">
+      <Filter>Scenes\Title</Filter>
+    </ClInclude>
+    <ClInclude Include="cIngameScene.h">
+      <Filter>Scenes\InGame</Filter>
+    </ClInclude>
+    <ClInclude Include="cImageManager.h">
+      <Filter>managers\ImageManager</Filter>
+    </ClInclude>
+    <ClInclude Include="cSceneManager.h">
+      <Filter>managers\SceneManager</Filter>
+    </ClInclude>
+    <ClInclude Include="cTimer.h">
+      <Filter>Timer</Filter>
+    </ClInclude>
+    <ClInclude Include="cInputManager.h">
+      <Filter>managers\InputManager</Filter>
+    </ClInclude>
+    <ClInclude Include="cButton.h">
+      <Filter>objects\Button</Filter>
+    </ClInclude>
+    <ClInclude Include="cMainScene.h">
+      <Filter>Scenes\Main</Filter>
+    </ClInclude>
+    <ClInclude Include="cNormalMob.h">
+      <Filter>objects\Mob\Normal</Filter>
+    </ClInclude>
+    <ClInclude Include="cMobAdmin.h">
+      <Filter>objects\Mob\Admin</Filter>
+    </ClInclude>
+    <ClInclude Include="cMob.h">
+      <Filter>objects\Mob\Parents</Filter>
+    </ClInclude>
+    <ClInclude Include="cPlayer.h">
+      <Filter>objects\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="cDororo.h">
+      <Filter>objects\Player\Dororo</Filter>
+    </ClInclude>
+    <ClInclude Include="cInvisibleMob.h">
+      <Filter>objects\Mob\Invisible</Filter>
+    </ClInclude>
+    <ClInclude Include="cBulletMob.h">
+      <Filter>objects\Mob\Bullet</Filter>
+    </ClInclude>
+    <ClInclude Include="cBullet.h">
+      <Filter>objects\bullet\cPlayerBullet\Parents</Filter>
+    </ClInclude>
+    <ClInclude Include="cMobBullet.h">
+      <Filter>objects\bullet\cMobBullet\Parents</Filter>
+    </ClInclude>
+    <ClInclude Include="cNormalBullet.h">
+      <Filter>objects\bullet\cMobBullet\Normal</Filter>
+    </ClInclude>
+    <ClInclude Include="cGiroro.h">
+      <Filter>objects\Player\Giroro</Filter>
+    </ClInclude>
+    <ClInclude Include="cKeroro.h">
+      <Filter>objects\Player\Keroro</Filter>
+    </ClInclude>
+    <ClInclude Include="cDororoBullet.h">
+      <Filter>objects\bullet\cPlayerBullet\Dororo</Filter>
+    </ClInclude>
+    <ClInclude Include="cKiruru.h">
+      <Filter>objects\Mob\Kiruru</Filter>
+    </ClInclude>
+    <ClInclude Include="cXBullet.h">
+      <Filter>objects\bullet\cMobBullet\X</Filter>
+    </ClInclude>
+    <ClInclude Include="cXFBullet.h">
+      <Filter>objects\bullet\cMobBullet\X</Filter>
+    </ClInclude>
+    <ClInclude Include="cKiruruBullet.h">
+      <Filter>objects\bullet\cMobBullet\X</Filter>
+    </ClInclude>
+    <ClInclude Include="cSplitBullet.h">
+      <Filter>objects\bullet\cMobBullet\X</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+</Project>
